@@ -12,11 +12,11 @@ const ValentineCard = () => {
   const bottomRef = useRef(null)
 
   const images = [
-    "/assets/lover_cat1.jpg",
-    "/assets/lover_cat2.jpg",
-    "/assets/lover_cat3.jpg",
+    "/lover_cat1.jpg",
+    "/lover_cat2.jpg",
+    "/lover_cat3.jpg",
   ];
-
+  
   const [messages, setMessages] = useState([]);
 
   useEffect(() => {
