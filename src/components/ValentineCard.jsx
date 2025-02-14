@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import messagesText from "../assets/message.txt?raw";
+import messagesText from "/assets/message.txt?raw";
 const EMOJI = ["💗", "⭐", "💕", "✨"];
 
 const ValentineCard = () => {
@@ -12,9 +12,9 @@ const ValentineCard = () => {
   const bottomRef = useRef(null)
 
   const images = [
-    "src/assets/lover_cat1.jpg",
-    "src/assets/lover_cat2.jpg",
-    "src/assets/lover_cat3.jpg",
+    "/assets/lover_cat1.jpg",
+    "/assets/lover_cat2.jpg",
+    "/assets/lover_cat3.jpg",
   ];
 
   const [messages, setMessages] = useState([]);
